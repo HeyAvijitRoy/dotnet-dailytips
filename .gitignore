@@ -3,16 +3,17 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-#Planned Codes
-Day2_AsyncVoid\
-Day3_TaskWhenAll\
-Day4_CancellationToke\
-Day5_DeadlocksUI\
-Day6_GetAwaiter\
-Day7_AsyncMistakesBlog\
+# Ignore all planned day folders except Day1
+Week01_AsyncAwait/Day2_AsyncVoid/
+Week01_AsyncAwait/Day3_TaskWhenAll/
+Week01_AsyncAwait/Day4_CancellationToken/
+Week01_AsyncAwait/Day5_DeadlocksUI/
+Week01_AsyncAwait/Day6_GetAwaiter/
+Week01_AsyncAwait/Day7_AsyncMistakesBlog/
 
-#Folder
-code-run\
+# Allow the runnable code folder
+code-run/
+
 
 # User-specific files
 *.rsuser
