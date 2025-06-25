@@ -1,4 +1,5 @@
-﻿// Avoid capturing context in background tasks
+// Author: Avijit Roy
+// Avoid capturing context in background tasks
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
