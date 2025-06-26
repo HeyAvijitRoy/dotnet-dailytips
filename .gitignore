@@ -6,7 +6,7 @@
 # Ignore all planned day folders except Day1
 # Week01_AsyncAwait/Day2_AsyncVoid/
 # Week01_AsyncAwait/Day3_TaskWhenAll/
-Week01_AsyncAwait/Day4_CancellationToken/
+# Week01_AsyncAwait/Day4_CancellationToken/
 Week01_AsyncAwait/Day5_DeadlocksUI/
 Week01_AsyncAwait/Day6_GetAwaiter/
 Week01_AsyncAwait/Day7_AsyncMistakesBlog/
