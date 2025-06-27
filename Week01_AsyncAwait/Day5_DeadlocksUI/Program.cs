@@ -1,4 +1,5 @@
-﻿// Demonstrate deadlock when blocking on async code in UI-like context
+﻿// Author Avijit Roy
+// Demonstrate deadlock when blocking on async code in UI-like context
 using System;
 using System.Threading.Tasks;
 
