@@ -1,5 +1,9 @@
 ﻿// Author: Avijit Roy
+// Illustrative playground combining common async mistakes (for learning/demo only)
+// Not for production use. Run each part carefully to understand potential issues.
+
 using System;
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -7,28 +11,30 @@ class Program
 {
     static async Task Main()
     {
-        Console.WriteLine("Starting demo of common async mistakes...\n");
+        Console.WriteLine("Demo: Common Async Mistakes in .NET\n");
 
-        // 1: Blocking
+        // 1. Blocking async code with .Result
         try
         {
             var result = GetValueAsync().Result;
-            Console.WriteLine("Blocked Result: " + result);
+            Console.WriteLine("Blocking Result: " + result);
         }
         catch (Exception ex)
         {
             Console.WriteLine("Caught (blocking): " + ex.Message);
         }
 
-        // 2: No ConfigureAwait (shown via code comment)
-        await Task.Delay(200).ConfigureAwait(false);
+        // 2. Forgetting ConfigureAwait(false)
+        await Task.Delay(200).ConfigureAwait(false); // See blog for reasoning
 
-        // 3: Async void (not demonstrable directly here)
+        // 3. Async void – cannot demo directly here, would require event context
 
-        // 4: Sequential loop
-        await foreach (var item in GetItemsAsync()) Console.WriteLine(item);
+        // 4. Misunderstanding await foreach (sequential, not concurrent)
+        Console.WriteLine("\nSequential await foreach:");
+        await foreach (var item in GetItemsAsync())
+            Console.WriteLine(item);
 
-        // 5: CancellationToken
+        // 5. Ignoring cancellation tokens
         var cts = new CancellationTokenSource(300);
         try
         {
@@ -36,7 +42,18 @@ class Program
         }
         catch (OperationCanceledException)
         {
-            Console.WriteLine("Cancelled gracefully.");
+            Console.WriteLine("Cancelled gracefully via token.");
+        }
+
+        // 6. Using GetAwaiter().GetResult() unsafely
+        try
+        {
+            var value = GetValueAsync().GetAwaiter().GetResult(); // similar to .Result
+            Console.WriteLine("GetAwaiter().GetResult(): " + value);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Caught (GetAwaiter): " + ex.Message);
         }
     }
 
