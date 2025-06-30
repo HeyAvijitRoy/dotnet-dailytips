@@ -4,12 +4,13 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # Ignore all planned day folders except Day1
-# Week01_AsyncAwait/Day2_AsyncVoid/
-# Week01_AsyncAwait/Day3_TaskWhenAll/
-# Week01_AsyncAwait/Day4_CancellationToken/
-# Week01_AsyncAwait/Day5_DeadlocksUI/
-# Week01_AsyncAwait/Day6_GetAwaiter/
-# Week01_AsyncAwait/Day7_AsyncMistakesBlog/
+# Week02_LINQ/Day8_WhereSelect/
+Week02_LINQ/Day9_DeferredExecution/
+Week02_LINQ/Day10_GroupBy/
+Week02_LINQ/Day11_ToListTrap/
+Week02_LINQ/Day12_SelectVsSelectMany/
+Week02_LINQ/Day13_CustomLINQ/
+Week02_LINQ/Day14_LinqMistakesBlog/
 
 # Allow the runnable code folder
 code-run/
