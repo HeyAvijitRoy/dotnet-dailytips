@@ -5,7 +5,7 @@
 
 # Ignore all planned day folders except Day1
 # Week02_LINQ/Day8_WhereSelect/
-Week02_LINQ/Day9_DeferredExecution/
+# Week02_LINQ/Day9_DeferredExecution/
 Week02_LINQ/Day10_GroupBy/
 Week02_LINQ/Day11_ToListTrap/
 Week02_LINQ/Day12_SelectVsSelectMany/
