@@ -27,7 +27,7 @@ foreach (var n in query)
 var snapshot = query.ToList();
 ```
 
-## 📅 Date: June 30, 2025
+## 📅 Date: July 1, 2025
 🔗 **Code:** [Program.cs](./Program.cs)  
 🔗 **Author:** [Avijit Roy on LinkedIn](https://www.linkedin.com/in/HeyAvijitRoy/)  
 🏷 **Tags:** #dotnetdailytips #DotNetWithRoy #csharp #LINQ #deferredexecution #Day9_DotNetWithRoy #Week2
