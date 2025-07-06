@@ -3,14 +3,15 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
-# Ignore all planned day folders except Day1
-# Week02_LINQ/Day8_WhereSelect/
-# Week02_LINQ/Day9_DeferredExecution/
-# Week02_LINQ/Day10_GroupBy/
-# Week02_LINQ/Day11_ToListTrap/
-# Week02_LINQ/Day12_SelectVsSelectMany/
-# Week02_LINQ/Day13_CustomLINQ/
-# Week02_LINQ/Day14_LinqMistakesBlog/
+# Ignore Week 3 folders (Exception Handling) until files are ready
+Week03_ExceptionHandling/Day15_TryCatchFinally/
+Week03_ExceptionHandling/Day16_MultipleCatch/
+Week03_ExceptionHandling/Day17_ThrowVsThrowEx/
+Week03_ExceptionHandling/Day18_CustomExceptions/
+Week03_ExceptionHandling/Day19_ExceptionFilters/
+Week03_ExceptionHandling/Day20_TryFinally/
+Week03_ExceptionHandling/Day21_ExceptionPractices/
+
 
 # Allow the runnable code folder
 code-run/
