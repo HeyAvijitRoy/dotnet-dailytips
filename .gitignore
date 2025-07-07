@@ -4,7 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # Ignore Week 3 folders (Exception Handling) until files are ready
-Week03_ExceptionHandling/Day15_TryCatchFinally/
+# Week03_ExceptionHandling/Day15_TryCatchFinally/
 Week03_ExceptionHandling/Day16_MultipleCatch/
 Week03_ExceptionHandling/Day17_ThrowVsThrowEx/
 Week03_ExceptionHandling/Day18_CustomExceptions/
