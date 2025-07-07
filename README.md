@@ -38,8 +38,9 @@ It’s not just a challenge — it’s a commitment to consistent growth, better
 | Week | Theme | Folder |
 |------|-------|--------|
 | Week 1 | Async/Await Deep Dive | [View → Week01_AsyncAwait](./Week01_AsyncAwait/) |
-| Week 1 | LINQ Essentials | [View → Week02_LINQ](./Week02_LINQ/) |
-| Week 3 | Stay tuned on LinkedIn | TBA |
+| Week 2 | LINQ Essentials | [View → Week02_LINQ](./Week02_LINQ/) |
+| Week 3 | Exception Handling Best Practices | [View → Week03_ExceptionHandling](./Week03_ExceptionHandling/) |
+| Week 4 | Stay tuned on LinkedIn | TBA |
 
 ---
 
