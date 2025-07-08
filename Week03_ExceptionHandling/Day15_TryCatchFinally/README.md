@@ -39,8 +39,8 @@ finally
 
 Start simple: catch what you can handle, log what you can't, and always clean up.
 
-## Date: July 6, 2025  
-🔗 **Code:** [https://github.com/heyavijitroy/dotnet-dailytips/tree/main/Week03\_ExceptionHandling/Day15\_TryCatchFinally/Program.cs](https://github.com/heyavijitroy/dotnet-dailytips/tree/main/Week03_ExceptionHandling/Day15_TryCatchFinally/Program.cs)  
+## Date: July 7, 2025  
+🔗 **Code:** [Program.cs](./Program.cs/) 
 
 🔗 **Author:** [Avijit Roy on LinkedIn](https://www.linkedin.com/in/HeyAvijitRoy/)  
 

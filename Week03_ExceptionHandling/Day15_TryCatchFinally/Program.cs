@@ -1,41 +1,46 @@
-// Summary: Demonstrates basic try-catch-finally flow in C#
-// Day15
+// Summary: Demonstrates multiple catch blocks handling different exception types
+// Day16
 // Author: Avijit Roy
 
 using System;
+using System.IO;
 
-namespace Day15_TryCatchFinally
+namespace Day16_MultipleCatch
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Starting program...");
+            Console.WriteLine("Starting multiple catch example...");
 
             try
             {
-                Console.WriteLine("Inside try block.");
-                int result = 10 / int.Parse("0"); // This will throw DivideByZeroException
+                Console.WriteLine("Enter file path:");
+                string path = Console.ReadLine();
+                string content = File.ReadAllText(path); // Can throw FileNotFoundException
+
+                Console.WriteLine("Enter a number to divide 100 by:");
+                int divisor = int.Parse(Console.ReadLine());
+                int result = 100 / divisor; // Can throw DivideByZeroException
+
                 Console.WriteLine($"Result: {result}");
+            }
+            catch (FileNotFoundException ex)
+            {
+                Console.WriteLine($"File error: {ex.Message}");
             }
             catch (DivideByZeroException ex)
             {
-                Console.WriteLine($"Caught a DivideByZeroException: {ex.Message}");
-            }
-            catch (FormatException ex)
-            {
-                Console.WriteLine($"Caught a FormatException: {ex.Message}");
+                Console.WriteLine($"Math error: {ex.Message}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Caught a general exception: {ex.Message}");
+                Console.WriteLine($"General error: {ex.Message}");
             }
             finally
             {
-                Console.WriteLine("Inside finally block: Cleaning up resources...");
+                Console.WriteLine("End of operation (finally block).");
             }
-
-            Console.WriteLine("Program ended.");
         }
     }
 }
