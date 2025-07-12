@@ -12,10 +12,18 @@
 # Week03_ExceptionHandling/Day20_TryFinally/
 Week03_ExceptionHandling/Day21_ExceptionPractices/
 
+# Ignore Week 4 folders (IEnumerable vs IQueryable) until files are ready
+Week04_IEnumerableVsIQueryable
+Week04_IEnumerableVsIQueryable/Day22_Intro/
+Week04_IEnumerableVsIQueryable/Day23_WhereClause/
+Week04_IEnumerableVsIQueryable/Day24_DeferredExecution/
+Week04_IEnumerableVsIQueryable/Day25_ImmediateExecution/
+Week04_IEnumerableVsIQueryable/Day26_LinqEfCoreMixing/
+Week04_IEnumerableVsIQueryable/Day27_EfficientQueries/
+Week04_IEnumerableVsIQueryable/Day28_Blog/
 
 # Allow the runnable code folder
 code-run/
-
 
 # User-specific files
 *.rsuser
