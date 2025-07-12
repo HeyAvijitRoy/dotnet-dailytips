@@ -10,7 +10,7 @@ class Program
 {
     static void Main()
     {
-        // Sample list of people with Name and City
+        // Sample data: list of people with their name and city
         var people = new List<Person>
         {
             new Person("Alice", "NYC"),
@@ -20,12 +20,13 @@ class Program
             new Person("Eva", "LA"),
         };
 
-        // Group people by their city
+        // Group the people list by the City property
         var groupedByCity = people.GroupBy(p => p.City);
 
-        // Display the groups
+        // Iterate through each group and display the results
         foreach (var group in groupedByCity)
         {
+            // Each group has a Key (City name) and a collection of Person
             Console.WriteLine($"City: {group.Key} (Total: {group.Count()})");
             foreach (var person in group)
             {
@@ -34,5 +35,6 @@ class Program
         }
     }
 
+    // C# 9+ record type for concise data model
     record Person(string Name, string City);
 }
