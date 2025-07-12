@@ -14,10 +14,12 @@ namespace Day20_TryFinally
 
             try
             {
+                // Attempt to perform an operation that throws
                 PerformOperation();
             }
             catch (Exception ex)
             {
+                // Catch the exception thrown from PerformOperation()
                 Console.WriteLine($"Exception caught in Main: {ex.Message}");
             }
 
@@ -29,10 +31,13 @@ namespace Day20_TryFinally
             try
             {
                 Console.WriteLine("Opening resource...");
+
+                // Simulate an error during operation
                 throw new InvalidOperationException("Something went wrong while using the resource.");
             }
             finally
             {
+                // This block always executes — even when an exception is thrown
                 Console.WriteLine("Cleaning up resource (finally block).");
             }
         }
