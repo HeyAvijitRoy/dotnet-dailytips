@@ -10,24 +10,32 @@ class Program
 {
     static void Main()
     {
+        // Initialize a list of integers
         var numbers = new List<int> { 1, 2, 3 };
 
-        var query = numbers.Where(n => n > 1); // Deferred execution
+        // Define a LINQ query using Where
+        // This is DEFERRED — the filter doesn't run yet
+        var query = numbers.Where(n => n > 1);
 
-        numbers.Add(4); // This affects the query outcome
+        // Add another number after defining the query
+        // Because of deferred execution, this WILL affect the results
+        numbers.Add(4);
 
         Console.WriteLine("Deferred execution output:");
         foreach (var number in query)
         {
-            Console.WriteLine(number); // Will output: 2, 3, 4
+            // Evaluation happens here — filters the updated list
+            Console.WriteLine(number); // Outputs: 2, 3, 4
         }
 
-        // Eager evaluation snapshot
+        // Force execution using ToList() — captures current state
         var snapshot = query.ToList();
+
         Console.WriteLine("\nSnapshot after ToList:");
         foreach (var number in snapshot)
         {
-            Console.WriteLine(number); // Will also output: 2, 3, 4 (at this point)
+            // Outputs same result as above, but now fixed
+            Console.WriteLine(number); // Outputs: 2, 3, 4
         }
     }
 }
