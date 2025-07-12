@@ -14,12 +14,15 @@ namespace Day19_ExceptionFilters
 
             try
             {
+                // Simulate an error based on input type
                 SimulateError("timeout");
             }
+            // Exception filter: only handles exceptions with "timeout" in the message
             catch (Exception ex) when (ex.Message.Contains("timeout"))
             {
                 Console.WriteLine("Handled a timeout-specific error.");
             }
+            // Fallback catch: handles all other exceptions
             catch (Exception ex)
             {
                 Console.WriteLine($"Caught a general error: {ex.Message}");
@@ -30,6 +33,7 @@ namespace Day19_ExceptionFilters
 
         static void SimulateError(string errorType)
         {
+            // Throw different types of general exceptions based on input
             if (errorType == "timeout")
             {
                 throw new Exception("This is a timeout error.");
