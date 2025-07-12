@@ -14,13 +14,14 @@ namespace Day17_ThrowVsThrowEx
 
             try
             {
-                CauseError();
+                CauseError(); // Call method that throws an exception
             }
             catch (Exception ex)
             {
+                // Outer catch receives the re-thrown exception
                 Console.WriteLine($"Outer catch caught: {ex.Message}");
                 Console.WriteLine("Stack Trace:");
-                Console.WriteLine(ex.StackTrace);
+                Console.WriteLine(ex.StackTrace); // Stack trace is useful for debugging
             }
         }
 
@@ -29,15 +30,19 @@ namespace Day17_ThrowVsThrowEx
             try
             {
                 int[] numbers = new int[2];
-                Console.WriteLine(numbers[5]); // IndexOutOfRangeException
+
+                // This line will throw IndexOutOfRangeException
+                Console.WriteLine(numbers[5]);
             }
             catch (Exception ex)
             {
+                // Inner catch handles the exception first
                 Console.WriteLine($"Inner catch: {ex.Message}");
-                // Uncomment one of the following to test the difference:
 
-                throw;    // Preserves original stack trace ✅
-                // throw ex; // Resets the stack trace ❌
+                // Uncomment one of the following to test the difference:
+                // Re-throw the exception — the two options behave differently:
+                throw;      // ✅ Preserves the original stack trace (recommended)
+                // throw ex; // ❌ Resets the stack trace to this point (avoid this)
             }
         }
     }
