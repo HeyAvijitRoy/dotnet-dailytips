@@ -10,17 +10,28 @@
 # Week03_ExceptionHandling/Day18_CustomExceptions/
 # Week03_ExceptionHandling/Day19_ExceptionFilters/
 # Week03_ExceptionHandling/Day20_TryFinally/
-Week03_ExceptionHandling/Day21_ExceptionPractices/
+ #Week03_ExceptionHandling/Day21_ExceptionPractices/
 
 # Ignore Week 4 folders (IEnumerable vs IQueryable) until files are ready
 Week04_IEnumerableVsIQueryable
-Week04_IEnumerableVsIQueryable/Day22_Intro/
-Week04_IEnumerableVsIQueryable/Day23_WhereClause/
-Week04_IEnumerableVsIQueryable/Day24_DeferredExecution/
-Week04_IEnumerableVsIQueryable/Day25_ImmediateExecution/
-Week04_IEnumerableVsIQueryable/Day26_LinqEfCoreMixing/
-Week04_IEnumerableVsIQueryable/Day27_EfficientQueries/
-Week04_IEnumerableVsIQueryable/Day28_Blog/
+#Week04_IEnumerableVsIQueryable/Day22_Intro/
+#Week04_IEnumerableVsIQueryable/Day23_WhereClause/
+#Week04_IEnumerableVsIQueryable/Day24_DeferredExecution/
+#Week04_IEnumerableVsIQueryable/Day25_ImmediateExecution/
+#Week04_IEnumerableVsIQueryable/Day26_LinqEfCoreMixing/
+#Week04_IEnumerableVsIQueryable/Day27_EfficientQueries/
+#Week04_IEnumerableVsIQueryable/Day28_Blog/
+
+# Ignore Week 5 folders (DateOnly, TimeOnly, DateTime) until files are ready
+Week05_DateAndTime/
+#Week05_DateAndTime/Day29_DateOnlyVsDateTime/
+#Week05_DateAndTime/Day30_TimeOnlyBasics/
+#Week05_DateAndTime/Day31_ParsingFormatting/
+#Week05_DateAndTime/Day32_JsonSerialization/
+#Week05_DateAndTime/Day33_DateTimeOffset/
+#Week05_DateAndTime/Day34_TimeZonePitfalls/
+#eek05_DateAndTime/Day35_DateTimePracticesBlog/
+
 
 # Allow the runnable code folder
 code-run/
