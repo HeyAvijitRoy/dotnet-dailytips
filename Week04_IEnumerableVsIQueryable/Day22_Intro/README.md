@@ -21,7 +21,7 @@ A simple comparison using a list of numbers, showing how both interfaces behave 
 
 ## Date: July 14, 2025
 
-🔗 **Code:** [Program.cs](./program.cs)  
+🔗 **Code:** [Program.cs](./Program.cs)  
 🔗 **Author:** [Avijit Roy on LinkedIn](https://www.linkedin.com/in/HeyAvijitRoy/)  
 
 **Tags:** #dotnetdailytips #DotNetWithRoy #csharp #IQueryable #IEnumerable #Day22\_DotNetWithRoy #Week4
