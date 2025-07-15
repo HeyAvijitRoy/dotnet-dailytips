@@ -4,13 +4,13 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # Ignore Weekly folders until files are ready
-Week01_AsyncAwait
-Week02_LINQ
-Week03_ExceptionHandling
+#Week01_AsyncAwait
+#Week02_LINQ
+#Week03_ExceptionHandling
 
 # Ignore Week 4 folders (IEnumerable vs IQueryable) until files are ready
 #Week04_IEnumerableVsIQueryable/Day22_Intro/
-Week04_IEnumerableVsIQueryable/Day23_WhereClause/
+#Week04_IEnumerableVsIQueryable/Day23_WhereClause/
 Week04_IEnumerableVsIQueryable/Day24_DeferredExecution/
 Week04_IEnumerableVsIQueryable/Day25_ImmediateExecution/
 Week04_IEnumerableVsIQueryable/Day26_LinqEfCoreMixing/
