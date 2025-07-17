@@ -14,7 +14,7 @@
 #Week04_IEnumerableVsIQueryable/Day24_DeferredExecution/
 #Week04_IEnumerableVsIQueryable/Day25_ImmediateExecution/
 #Week04_IEnumerableVsIQueryable/Day26_LinqEfCoreMixing/
-Week04_IEnumerableVsIQueryable/Day27_EfficientQueries/
+#Week04_IEnumerableVsIQueryable/Day27_EfficientQueries/
 Week04_IEnumerableVsIQueryable/Day28_Blog/
 
 # Ignore Week 5 folders (DateOnly, TimeOnly, DateTime) until files are ready
