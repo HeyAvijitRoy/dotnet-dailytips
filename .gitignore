@@ -18,8 +18,8 @@
 #Week04_IEnumerableVsIQueryable/Day28_Blog/
 
 # Ignore Week 5 folders (DateOnly, TimeOnly, DateTime) until files are ready
-Week05_DateAndTime/
-Week05_DateAndTime/Day29_DateOnlyVsDateTime/
+#Week05_DateAndTime/
+#Week05_DateAndTime/Day29_DateOnlyVsDateTime/
 Week05_DateAndTime/Day30_TimeOnlyBasics/
 Week05_DateAndTime/Day31_ParsingFormatting/
 Week05_DateAndTime/Day32_JsonSerialization/
