@@ -7,7 +7,7 @@
 # Ignore Week 7 folders
 
 #Week07_AdvancedCollections
-Day43_DictionaryOfLists
+#Day43_DictionaryOfLists
 Day44_ConcurrentCollections
 Day45_ImmutableCollections
 Day46_ReadOnlyVsIReadOnly
