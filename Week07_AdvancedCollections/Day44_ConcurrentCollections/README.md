@@ -21,7 +21,7 @@ Additionally, you can apply LINQ queries on ConcurrentDictionary just like regul
 
 ---
 
-## Date: August 12, 2025 
+## Date: August 5, 2025 
 🔗 **Code:** [Program.cs](./program.cs)  
 🔗 **Author:** [Avijit Roy on LinkedIn](https://www.linkedin.com/in/HeyAvijitRoy/)  
 **Tags:** #dotnetdailytips #DotNetWithRoy #csharp #ConcurrentCollections #Day44\_DotNetWithRoy #Week7

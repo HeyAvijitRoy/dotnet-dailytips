@@ -18,7 +18,7 @@ In this example, we demonstrate:
 
 ---
 
-## Date: August 11, 2025 
+## Date: August 4, 2025 
 🔗 **Code:** [Program.cs](./program.cs)  
 🔗 **Author:** [Avijit Roy on LinkedIn](https://www.linkedin.com/in/HeyAvijitRoy/)  
 **Tags:** #dotnetdailytips #DotNetWithRoy #csharp #Dictionary #LINQ #Day43\_DotNetWithRoy #Week7
