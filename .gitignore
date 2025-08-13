@@ -6,14 +6,14 @@
 # Ignore Weekly folders until files are ready
 # Ignore Week 7 folders
 
-#Week07_AdvancedCollections
-#Day43_DictionaryOfLists
-#Day44_ConcurrentCollections
-#Day45_ImmutableCollections
-#Day46_ReadOnlyVsIReadOnly
-#Day47_PriorityQueue
-#Day48_CustomCollectionTypes
-Day49_CollectionsMasteryBlog
+Week08_PerfSpanMemory
+Day50_SpanBasics
+Day51_ReadOnlySpan_Stackalloc
+Day52_Memory_IMemoryOwner
+Day53_ArrayPool_BufferWriter
+Day54_ZeroAllocParsing_SpanUtf8
+Day55_SystemIOPipelines
+Day56_ZeroAllocPatterns_Blog
 
 # Allow the runnable code folder
 code-run/
