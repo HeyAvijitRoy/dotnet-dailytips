@@ -6,8 +6,8 @@
 # Ignore Weekly folders until files are ready
 # Ignore Week 7 folders
 
-Week08_PerfSpanMemory
-Day50_SpanBasics
+#Week08_PerfSpanMemory
+#Day50_SpanBasics
 Day51_ReadOnlySpan_Stackalloc
 Day52_Memory_IMemoryOwner
 Day53_ArrayPool_BufferWriter
