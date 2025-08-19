@@ -6,14 +6,14 @@
 # Ignore Weekly folders until files are ready
 # Ignore Week 7 folders
 
-#Week08_PerfSpanMemory
-#Day50_SpanBasics
-#Day51_ReadOnlySpan_Stackalloc
-#Day52_Memory_IMemoryOwner
-#Day53_ArrayPool_BufferWriter
-#Day54_ZeroAllocParsing_SpanUtf8
-#Day55_SystemIOPipelines
-#Day56_ZeroAllocPatterns_Blog
+Week09_PerfAndPipelines
+Day57_SpanBasics
+Day58_StackallocAndSlices
+Day59_MemoryAndPools
+Day60_IBufferWriter
+Day61_PipelinesBasics
+Day62_TextPerf
+Day63_ZeroAllocPipelineBlog
 
 # Allow the runnable code folder
 code-run/
