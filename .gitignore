@@ -10,7 +10,7 @@
 #Day57_SpanBasics
 #Day58_StackallocAndSlices
 #Day59_MemoryAndPools
-Day60_IBufferWriter
+#Day60_IBufferWriter
 Day61_PipelinesBasics
 Day62_TextPerf
 Day63_ZeroAllocPipelineBlog
